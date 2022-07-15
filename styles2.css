@@ -1,0 +1,119 @@
+/*Change background color to purple using hex */
+body {
+    background-color:#77328c;
+}
+
+/*Change heading color, add shadow, and center align */
+h1 {
+    color: #f5e2e1;
+    text-shadow: #7d7c7c 2px 2px;
+    text-align: center;
+}
+/*Center navigation menu, remove bullets from list, create background color for navigation menu(list), increase font size */
+div.menu {
+    text-align: center;
+    list-style-type: none;
+    background-color: #6e6867;
+    font-size:large;
+}
+/*Center navigation menu, remove bullets from list, create background color for navigation menu(list), increase font size */
+dl.menu {
+    text-align: center;
+    list-style-type: none;
+    background-color: #6e6867;
+    font-size:large;
+} 
+/*display navigation menu items on one line vs vertically */
+dt {
+    display: inline;
+}
+/*Create space between the navigation menu items */
+a {
+    padding: 80px;
+}
+/*Display images and lists in 3 columns and 2 rows */
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*Center headers and change text color and font */
+h3 {
+    text-align: center;
+    color: #f5e2e1;
+    font-family: lucida handwriting;
+}
+/*center images in their column/row */
+img {
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+/*shake image on screen when mouse hovers over it */
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+/*move text to display directly under the image and change font */
+ul {
+    position:relative; left: 100px;
+    font-family: papyrus;
+}
+/*center align the table header and increase size and change color */
+h4 {
+    text-align: center;
+    font-size: large;
+    color: #f5e2e1;
+}
+/*create table borders, stretch table over 3/4 of page, and center align */
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*create space around the table, align the text to the left, set bottom border size and color, set table text color */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px, #f5e2e1;
+    color: #1b0433;
+}
+/*turn even lines of table light gray */
+tr:nth-child(even){
+    background-color:#7d7c7c
+}
+/*turn odd lines of the table darker gray */
+tr:nth-child(odd){
+    background-color:#6e6867
+}
+/*table rows turn white when hovering with mouse */
+tr:hover {
+    background-color: #f5e2e1
+}
+

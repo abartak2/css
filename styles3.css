@@ -1,0 +1,89 @@
+/*Change heading color, add shadow, and center align */
+h1 {
+    color: #f5e2e1;
+    text-shadow: #7d7c7c 2px 2px;
+    text-align: center;
+}
+/*Center navigation menu, remove bullets from list, increase font size */
+div.menu {
+    text-align: center;
+    list-style-type: none;
+    font-size:large;
+}
+/*Center navigation menu, remove bullets from list, increase font size */
+dl.menu {
+    text-align: center;
+    list-style-type: none;
+    font-size:large;
+} 
+
+/*display navigation menu items on one line vs vertically */
+dt {
+    display: inline;
+}
+/*Create space between the navigation menu items */
+a {
+    padding: 80px;
+}
+/*create background image to repeat to cover the page */
+body {
+    background-image: url("https://images.tbs.com/tbs/$dyna_params/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2020%2F02%2FFriends-1920x1080.jpg");
+    background-size: contain;
+    
+}
+/*increase heading font size, change font, center align */
+h4 {
+    font-size: 65px;
+    text-align: center;
+    font-family: Courier New;
+}
+
+/*increase font size, change font, and bold */
+.Q1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+
+.Q2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+
+.Q3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+
+.Q4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+
+.Q5 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+
+.Q6 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: lucida console;
+}
+/* increase size of submit button, change color, center align text, increase font size */
+input {
+    background-color:#77328c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
